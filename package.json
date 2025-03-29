@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client"  : "cd client && npm start",
-    "server"  : "cd server && npm start",
-    "dev"     : "concurrently \"npm run server\" \"npm run client\""
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/gautammishrakashyap/Humantics#readme",
   "dependencies": {
-    "concurrently": "^9.1.2"
+    "@tailwindcss/postcss": "^4.0.17",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.17"
   }
 }
